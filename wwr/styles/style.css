@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,200;1,300&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
+ 
   max-width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 #content {
@@ -9,7 +11,7 @@
 }
 body {
   background-color: #f1faee;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -19,6 +21,13 @@ nav a {
   text-align: center;
   color: #5fa8d3;
   text-decoration: none;
+  padding: 35px
+}
+.home-title {
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
 }
 #hero-img {
   width: 100%;
@@ -26,9 +35,25 @@ nav a {
 #hero-box {
   width: 100%;
 }
-#hero-msg h1,
+
+.msg {
+  line-height: 1.5em;
+  padding: 35px;
+  
+}
+
+.msg p {
+  padding-bottom: 15px;
+}
+
+#hero-msg h2 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
 #hero-msg h4 {
   text-align: center;
+  
 }
 .button-box {
   text-align: center;
@@ -56,20 +81,43 @@ nav a:hover {
   width: 80px;
   border-radius: 20px;
   margin-left: 5px;
+  padding-top: 5px; 
+}
+main section img {
+  box-sizing: border-box;
+
+}
+.card-img {
+  border: 10px solid #d9c2a3;
 }
 
 .book {
   text-align: center;
   color: black;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #d9c2a3;
+
 }
 .join {
   text-align: center;
   color: black;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #d9c2a3;
+
 }
 .book:hover {
   color: aqua;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
 }
 
 .join:hover {
@@ -78,9 +126,16 @@ nav a:hover {
 
 .msg {
   background-color: #bee9e8;
+  margin-top: 200px;
+
+}
+.mountains {
+  margin-top: 100px;
 }
 footer {
   background-color: #cae9ff;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer p {
   font-size: 1.2em;
@@ -88,7 +143,11 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }
+footer .social img  {
+  padding-top: 15px;
+} 
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
